@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-newsletter` will be documented in this file.
 
+## 5.3.2 - 2026-02-21
+
+Add Laravel 13 support
+
 ## 5.3.1 - 2025-03-26
 
 ### What's Changed
