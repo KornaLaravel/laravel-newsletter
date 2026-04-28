@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-newsletter` will be documented in this file.
 
+## 5.4.0 - 2026-04-28
+
+### What's Changed
+
+* Bump ramsey/composer-install from 3 to 4 by @dependabot[bot] in https://github.com/spatie/laravel-newsletter/pull/347
+* Add MailerLite driver support by @freekmurze in https://github.com/spatie/laravel-newsletter/pull/348
+
+**Full Changelog**: https://github.com/spatie/laravel-newsletter/compare/5.3.2...5.4.0
+
 ## 5.3.2 - 2026-02-21
 
 Add Laravel 13 support
