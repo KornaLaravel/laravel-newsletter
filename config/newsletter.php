@@ -1,5 +1,7 @@
 <?php
 
+use Spatie\Newsletter\Drivers\MailcoachDriver;
+
 return [
 
     /*
@@ -7,7 +9,7 @@ return [
      * You may use "log" or "null" to prevent calling the
      * API directly from your environment.
      */
-    'driver' => env('NEWSLETTER_DRIVER', Spatie\Newsletter\Drivers\MailcoachDriver::class),
+    'driver' => env('NEWSLETTER_DRIVER', MailcoachDriver::class),
 
     /**
      * These arguments will be given to the driver.
@@ -40,6 +42,8 @@ return [
              *
              * When using the MailChimp driver, this should be a MailChimp list id.
              * http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id.
+             *
+             * When using MailerLite Driver, this should be a MailerLite group ID
              */
             'id' => env('NEWSLETTER_LIST_ID'),
         ],
